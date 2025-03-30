@@ -12,7 +12,7 @@ class Skill(models.Model):
     bonus = models.CharField("A description of the bonus",
                              max_length=255, blank=True)
     race = models.ForeignKey(Race, on_delete=models.CASCADE,
-                             related_name="race")
+                             related_name="skills")
 
 
 class Guild(models.Model):
