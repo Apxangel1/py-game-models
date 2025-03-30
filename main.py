@@ -39,6 +39,5 @@ def main() -> None:
         print(obj.nickname)
 
 
-
 if __name__ == "__main__":
     main()
